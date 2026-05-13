@@ -1,0 +1,77 @@
+body {
+  padding: 50px 100px;
+
+  background-color: #f7f8fd;
+}
+
+.Navlinks {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.Navlinks a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+#home {
+  color: #ff6838;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Nav_btn {
+  background-color: #ff7a50;
+  padding: 15px 28px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.Hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.Category {
+  margin-top: 128px;
+}
+
+.section_title {
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+}
+
+.orange {
+  color: #ff7a50;
+}
+
+.Category_btns_wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 26px;
+  justify-content: center;
+}
+.Category_btns_wrapper button {
+  width: 210px;
+  height: 71px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  gap: 9px;
+}
+.Category_btns_wrapper button:active {
+  background-color: #ff7a50;
+  color: white;
+}

@@ -1,0 +1,33 @@
+/* 
+    position
+        left => 
+        right => 
+        bottom => 
+        top => 
+    posative xossalari
+    0. static => default xolati
+    1. absolute => positined bolgan otasiga nisbatan joylashadi
+    2. relative => ozi turgan joyga nisbatan joylashadi 
+    3. fixed => turgan joda qotadi
+    4. sticky => berilgan qiymatdan so'ng qotadi
+
+    z-index => qatlamlarni boshqaradi => position  bilan ishlaydi 
+
+    181
+    159
+    155
+
+*/
+
+body{
+    padding: 0 30px;
+}
+
+nav{
+    width: 90%;
+    height: 60px;
+    background-color: blue;
+    position: sticky;
+    margin-top: 100px;
+    top: 20px;
+}

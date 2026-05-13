@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* h1{
+    font-family: rubik;
+} */
+
+
+body{
+    padding: 100px;
+}
+
+/* .card{
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+
+.card:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: red;
+    color: white;
+} */
+
+
+/* 
+psevdo element => element qoshish
+1. ::before => avval
+2. ::after => keyin
+*/
+
+
+/* h1::before{
+    content: ✅;
+}
+
+h1::after{
+    content: 😁;
+} */
+
+span{
+    display: none;
+}
+
+
+h1:hover span{
+    display: inline;
+}

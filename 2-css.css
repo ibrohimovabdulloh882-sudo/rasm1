@@ -1,0 +1,52 @@
+/* 
+    pescificity => o'ziga hoslik va ustunvorlik
+    univercile * => 0,0,0
+    tagname => 0,0,1
+    class . => 0,1,0
+    id # => 1,0,0
+    inline style berish => 1,0,0,0
+    !inportent => ishlatmaslik kerek  qoida boyicha bu 1,0,0,1
+    */
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 40px;
+    color: white;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 40px 100px 70px;
+    color: white;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 20px 40px 75px 100px;
+    color: white;
+}
+
+
+
+/* Box Model =< Quti Modeli
+    1.Content: => 2.Padding: => 3.Border: => 4.Margin
+
+    --------------Padding------------
+    1. Padding => qutini ichki tomandan kengaytiradi (suradi) */
+/* padding: 40px;  => barcha tarafga bir xilda tasir qiladi*/
+/* padding: 40px 100px;  => tepa-past va o'ng-chapga tasir qiladi*/
+/* padding: 30px 50px 60px 100px;  => soat strelkasi bo'yicha tasir qiladi*/
+/* box-sizing:border-box; => o'lchamni quti ichidan hisoblaydi */
+
+/* --------------Margin------------
+    2. margin => qutini tashqarida surish uchun  */
+/* margin : 0 auto; => tepa-pastdan va ikkala yondan o'rtaga joylashadi */
+/* margin: 40px;  => barcha tarafga bir xilda tasir qiladi*/
+/* margin: 40px 100px;  => tepa-past va o'ng-chapga tasir qiladi*/
+/* margin: 30px 50px 60px 100px;  => soat strelkasi bo'yicha tasir qiladi*/
